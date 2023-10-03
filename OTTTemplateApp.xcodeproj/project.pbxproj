@@ -15,6 +15,20 @@
 		994390862ACBF07000BA2490 /* OTTTemplateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390852ACBF07000BA2490 /* OTTTemplateAppTests.swift */; };
 		994390902ACBF07000BA2490 /* OTTTemplateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943908F2ACBF07000BA2490 /* OTTTemplateAppUITests.swift */; };
 		994390922ACBF07000BA2490 /* OTTTemplateAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390912ACBF07000BA2490 /* OTTTemplateAppUITestsLaunchTests.swift */; };
+		9943909F2ACBFD6600BA2490 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943909E2ACBFD6600BA2490 /* AppCoordinator.swift */; };
+		994390A12ACBFDEF00BA2490 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390A02ACBFDEF00BA2490 /* MainTabView.swift */; };
+		994390A32ACBFE3000BA2490 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390A22ACBFE3000BA2490 /* LaunchScreenView.swift */; };
+		994390AB2ACBFEF600BA2490 /* OTTTemplateTVAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390AA2ACBFEF600BA2490 /* OTTTemplateTVAppApp.swift */; };
+		994390AD2ACBFEF600BA2490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390AC2ACBFEF600BA2490 /* ContentView.swift */; };
+		994390AF2ACBFEF600BA2490 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390AE2ACBFEF600BA2490 /* Item.swift */; };
+		994390B12ACBFEF800BA2490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994390B02ACBFEF800BA2490 /* Assets.xcassets */; };
+		994390B42ACBFEF800BA2490 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994390B32ACBFEF800BA2490 /* Preview Assets.xcassets */; };
+		994390BE2ACBFEF800BA2490 /* OTTTemplateTVAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390BD2ACBFEF800BA2490 /* OTTTemplateTVAppTests.swift */; };
+		994390C82ACBFEF800BA2490 /* OTTTemplateTVAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390C72ACBFEF800BA2490 /* OTTTemplateTVAppUITests.swift */; };
+		994390CA2ACBFEF800BA2490 /* OTTTemplateTVAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390C92ACBFEF800BA2490 /* OTTTemplateTVAppUITestsLaunchTests.swift */; };
+		994390D52ACC000500BA2490 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390A22ACBFE3000BA2490 /* LaunchScreenView.swift */; };
+		994390D62ACC000500BA2490 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390A02ACBFDEF00BA2490 /* MainTabView.swift */; };
+		994390D72ACC002000BA2490 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943909E2ACBFD6600BA2490 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +46,20 @@
 			remoteGlobalIDString = 9943906E2ACBF06D00BA2490;
 			remoteInfo = OTTTemplateApp;
 		};
+		994390BA2ACBFEF800BA2490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994390672ACBF06D00BA2490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994390A72ACBFEF600BA2490;
+			remoteInfo = OTTTemplateTVApp;
+		};
+		994390C42ACBFEF800BA2490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994390672ACBF06D00BA2490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994390A72ACBFEF600BA2490;
+			remoteInfo = OTTTemplateTVApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +74,20 @@
 		9943908B2ACBF07000BA2490 /* OTTTemplateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTTemplateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9943908F2ACBF07000BA2490 /* OTTTemplateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTTemplateAppUITests.swift; sourceTree = "<group>"; };
 		994390912ACBF07000BA2490 /* OTTTemplateAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTTemplateAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9943909E2ACBFD6600BA2490 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		994390A02ACBFDEF00BA2490 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		994390A22ACBFE3000BA2490 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		994390A82ACBFEF600BA2490 /* OTTTemplateTVApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTTTemplateTVApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		994390AA2ACBFEF600BA2490 /* OTTTemplateTVAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTTemplateTVAppApp.swift; sourceTree = "<group>"; };
+		994390AC2ACBFEF600BA2490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		994390AE2ACBFEF600BA2490 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		994390B02ACBFEF800BA2490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		994390B32ACBFEF800BA2490 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		994390B92ACBFEF800BA2490 /* OTTTemplateTVAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTTemplateTVAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		994390BD2ACBFEF800BA2490 /* OTTTemplateTVAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTTemplateTVAppTests.swift; sourceTree = "<group>"; };
+		994390C32ACBFEF800BA2490 /* OTTTemplateTVAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTTemplateTVAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		994390C72ACBFEF800BA2490 /* OTTTemplateTVAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTTemplateTVAppUITests.swift; sourceTree = "<group>"; };
+		994390C92ACBFEF800BA2490 /* OTTTemplateTVAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTTemplateTVAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,15 +112,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		994390A52ACBFEF600BA2490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994390B62ACBFEF800BA2490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994390C02ACBFEF800BA2490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		994390662ACBF06D00BA2490 = {
 			isa = PBXGroup;
 			children = (
+				994390D42ACBFFDE00BA2490 /* Shared */,
 				994390712ACBF06D00BA2490 /* OTTTemplateApp */,
 				994390842ACBF07000BA2490 /* OTTTemplateAppTests */,
 				9943908E2ACBF07000BA2490 /* OTTTemplateAppUITests */,
+				994390A92ACBFEF600BA2490 /* OTTTemplateTVApp */,
+				994390BC2ACBFEF800BA2490 /* OTTTemplateTVAppTests */,
+				994390C62ACBFEF800BA2490 /* OTTTemplateTVAppUITests */,
 				994390702ACBF06D00BA2490 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +156,9 @@
 				9943906F2ACBF06D00BA2490 /* OTTTemplateApp.app */,
 				994390812ACBF07000BA2490 /* OTTTemplateAppTests.xctest */,
 				9943908B2ACBF07000BA2490 /* OTTTemplateAppUITests.xctest */,
+				994390A82ACBFEF600BA2490 /* OTTTemplateTVApp.app */,
+				994390B92ACBFEF800BA2490 /* OTTTemplateTVAppTests.xctest */,
+				994390C32ACBFEF800BA2490 /* OTTTemplateTVAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +198,77 @@
 				994390912ACBF07000BA2490 /* OTTTemplateAppUITestsLaunchTests.swift */,
 			);
 			path = OTTTemplateAppUITests;
+			sourceTree = "<group>";
+		};
+		994390A92ACBFEF600BA2490 /* OTTTemplateTVApp */ = {
+			isa = PBXGroup;
+			children = (
+				994390AA2ACBFEF600BA2490 /* OTTTemplateTVAppApp.swift */,
+				994390AC2ACBFEF600BA2490 /* ContentView.swift */,
+				994390AE2ACBFEF600BA2490 /* Item.swift */,
+				994390B02ACBFEF800BA2490 /* Assets.xcassets */,
+				994390B22ACBFEF800BA2490 /* Preview Content */,
+			);
+			path = OTTTemplateTVApp;
+			sourceTree = "<group>";
+		};
+		994390B22ACBFEF800BA2490 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				994390B32ACBFEF800BA2490 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		994390BC2ACBFEF800BA2490 /* OTTTemplateTVAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				994390BD2ACBFEF800BA2490 /* OTTTemplateTVAppTests.swift */,
+			);
+			path = OTTTemplateTVAppTests;
+			sourceTree = "<group>";
+		};
+		994390C62ACBFEF800BA2490 /* OTTTemplateTVAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				994390C72ACBFEF800BA2490 /* OTTTemplateTVAppUITests.swift */,
+				994390C92ACBFEF800BA2490 /* OTTTemplateTVAppUITestsLaunchTests.swift */,
+			);
+			path = OTTTemplateTVAppUITests;
+			sourceTree = "<group>";
+		};
+		994390D42ACBFFDE00BA2490 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				994390DA2ACC00A200BA2490 /* Model */,
+				994390D92ACC009300BA2490 /* ViewModel */,
+				9943909E2ACBFD6600BA2490 /* AppCoordinator.swift */,
+				994390D82ACC006400BA2490 /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		994390D82ACC006400BA2490 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				994390A22ACBFE3000BA2490 /* LaunchScreenView.swift */,
+				994390A02ACBFDEF00BA2490 /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		994390D92ACC009300BA2490 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		994390DA2ACC00A200BA2490 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +327,59 @@
 			productReference = 9943908B2ACBF07000BA2490 /* OTTTemplateAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		994390A72ACBFEF600BA2490 /* OTTTemplateTVApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994390CB2ACBFEF800BA2490 /* Build configuration list for PBXNativeTarget "OTTTemplateTVApp" */;
+			buildPhases = (
+				994390A42ACBFEF600BA2490 /* Sources */,
+				994390A52ACBFEF600BA2490 /* Frameworks */,
+				994390A62ACBFEF600BA2490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTTTemplateTVApp;
+			productName = OTTTemplateTVApp;
+			productReference = 994390A82ACBFEF600BA2490 /* OTTTemplateTVApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		994390B82ACBFEF800BA2490 /* OTTTemplateTVAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994390CE2ACBFEF800BA2490 /* Build configuration list for PBXNativeTarget "OTTTemplateTVAppTests" */;
+			buildPhases = (
+				994390B52ACBFEF800BA2490 /* Sources */,
+				994390B62ACBFEF800BA2490 /* Frameworks */,
+				994390B72ACBFEF800BA2490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				994390BB2ACBFEF800BA2490 /* PBXTargetDependency */,
+			);
+			name = OTTTemplateTVAppTests;
+			productName = OTTTemplateTVAppTests;
+			productReference = 994390B92ACBFEF800BA2490 /* OTTTemplateTVAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		994390C22ACBFEF800BA2490 /* OTTTemplateTVAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994390D12ACBFEF800BA2490 /* Build configuration list for PBXNativeTarget "OTTTemplateTVAppUITests" */;
+			buildPhases = (
+				994390BF2ACBFEF800BA2490 /* Sources */,
+				994390C02ACBFEF800BA2490 /* Frameworks */,
+				994390C12ACBFEF800BA2490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				994390C52ACBFEF800BA2490 /* PBXTargetDependency */,
+			);
+			name = OTTTemplateTVAppUITests;
+			productName = OTTTemplateTVAppUITests;
+			productReference = 994390C32ACBFEF800BA2490 /* OTTTemplateTVAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +401,17 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 9943906E2ACBF06D00BA2490;
 					};
+					994390A72ACBFEF600BA2490 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					994390B82ACBFEF800BA2490 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 994390A72ACBFEF600BA2490;
+					};
+					994390C22ACBFEF800BA2490 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 994390A72ACBFEF600BA2490;
+					};
 				};
 			};
 			buildConfigurationList = 9943906A2ACBF06D00BA2490 /* Build configuration list for PBXProject "OTTTemplateApp" */;
@@ -225,6 +430,9 @@
 				9943906E2ACBF06D00BA2490 /* OTTTemplateApp */,
 				994390802ACBF07000BA2490 /* OTTTemplateAppTests */,
 				9943908A2ACBF07000BA2490 /* OTTTemplateAppUITests */,
+				994390A72ACBFEF600BA2490 /* OTTTemplateTVApp */,
+				994390B82ACBFEF800BA2490 /* OTTTemplateTVAppTests */,
+				994390C22ACBFEF800BA2490 /* OTTTemplateTVAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,6 +461,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		994390A62ACBFEF600BA2490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994390B42ACBFEF800BA2490 /* Preview Assets.xcassets in Resources */,
+				994390B12ACBFEF800BA2490 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994390B72ACBFEF800BA2490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994390C12ACBFEF800BA2490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,9 +491,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9943909F2ACBFD6600BA2490 /* AppCoordinator.swift in Sources */,
 				994390752ACBF06D00BA2490 /* ContentView.swift in Sources */,
 				994390772ACBF06D00BA2490 /* Item.swift in Sources */,
 				994390732ACBF06D00BA2490 /* OTTTemplateAppApp.swift in Sources */,
+				994390A12ACBFDEF00BA2490 /* MainTabView.swift in Sources */,
+				994390A32ACBFE3000BA2490 /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +517,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		994390A42ACBFEF600BA2490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994390D72ACC002000BA2490 /* AppCoordinator.swift in Sources */,
+				994390AD2ACBFEF600BA2490 /* ContentView.swift in Sources */,
+				994390AF2ACBFEF600BA2490 /* Item.swift in Sources */,
+				994390AB2ACBFEF600BA2490 /* OTTTemplateTVAppApp.swift in Sources */,
+				994390D52ACC000500BA2490 /* LaunchScreenView.swift in Sources */,
+				994390D62ACC000500BA2490 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994390B52ACBFEF800BA2490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994390BE2ACBFEF800BA2490 /* OTTTemplateTVAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994390BF2ACBFEF800BA2490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994390CA2ACBFEF800BA2490 /* OTTTemplateTVAppUITestsLaunchTests.swift in Sources */,
+				994390C82ACBFEF800BA2490 /* OTTTemplateTVAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,6 +559,16 @@
 			isa = PBXTargetDependency;
 			target = 9943906E2ACBF06D00BA2490 /* OTTTemplateApp */;
 			targetProxy = 9943908C2ACBF07000BA2490 /* PBXContainerItemProxy */;
+		};
+		994390BB2ACBFEF800BA2490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994390A72ACBFEF600BA2490 /* OTTTemplateTVApp */;
+			targetProxy = 994390BA2ACBFEF800BA2490 /* PBXContainerItemProxy */;
+		};
+		994390C52ACBFEF800BA2490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994390A72ACBFEF600BA2490 /* OTTTemplateTVApp */;
+			targetProxy = 994390C42ACBFEF800BA2490 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -552,6 +826,144 @@
 			};
 			name = Release;
 		};
+		994390CC2ACBFEF800BA2490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTTTemplateTVApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6ZJ6B7LZNS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.media.ondemand.OTTTemplateTVApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		994390CD2ACBFEF800BA2490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTTTemplateTVApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6ZJ6B7LZNS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.media.ondemand.OTTTemplateTVApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		994390CF2ACBFEF800BA2490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZJ6B7LZNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.media.ondemand.OTTTemplateTVAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTTTemplateTVApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OTTTemplateTVApp";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		994390D02ACBFEF800BA2490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZJ6B7LZNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.media.ondemand.OTTTemplateTVAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTTTemplateTVApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OTTTemplateTVApp";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		994390D22ACBFEF800BA2490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZJ6B7LZNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.media.ondemand.OTTTemplateTVAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = OTTTemplateTVApp;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		994390D32ACBFEF800BA2490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZJ6B7LZNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.media.ondemand.OTTTemplateTVAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = OTTTemplateTVApp;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,6 +999,33 @@
 			buildConfigurations = (
 				9943909C2ACBF07000BA2490 /* Debug */,
 				9943909D2ACBF07000BA2490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994390CB2ACBFEF800BA2490 /* Build configuration list for PBXNativeTarget "OTTTemplateTVApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994390CC2ACBFEF800BA2490 /* Debug */,
+				994390CD2ACBFEF800BA2490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994390CE2ACBFEF800BA2490 /* Build configuration list for PBXNativeTarget "OTTTemplateTVAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994390CF2ACBFEF800BA2490 /* Debug */,
+				994390D02ACBFEF800BA2490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994390D12ACBFEF800BA2490 /* Build configuration list for PBXNativeTarget "OTTTemplateTVAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994390D22ACBFEF800BA2490 /* Debug */,
+				994390D32ACBFEF800BA2490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
