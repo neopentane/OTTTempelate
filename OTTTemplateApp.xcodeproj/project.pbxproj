@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,6 +29,17 @@
 		994390D52ACC000500BA2490 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390A22ACBFE3000BA2490 /* LaunchScreenView.swift */; };
 		994390D62ACC000500BA2490 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390A02ACBFDEF00BA2490 /* MainTabView.swift */; };
 		994390D72ACC002000BA2490 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943909E2ACBFD6600BA2490 /* AppCoordinator.swift */; };
+		998EEC8B2ACE7A3A0027E852 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 998EEC8A2ACE7A3A0027E852 /* Apollo */; };
+		998EEC8D2ACE7A460027E852 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 998EEC8C2ACE7A460027E852 /* Apollo */; };
+		998EEC912ACE7B250027E852 /* AllFilmsQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 998EEC482ACDCC0E0027E852 /* AllFilmsQuery.graphql */; };
+		998EEC922ACE7B250027E852 /* AllFilmsQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 998EEC482ACDCC0E0027E852 /* AllFilmsQuery.graphql */; };
+		998EEC932ACE7B280027E852 /* star-wars-swapi@current.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = 998EEC452ACDCBDB0027E852 /* star-wars-swapi@current.graphqls */; };
+		998EEC942ACE7B290027E852 /* star-wars-swapi@current.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = 998EEC452ACDCBDB0027E852 /* star-wars-swapi@current.graphqls */; };
+		998EEC9A2ACE7C940027E852 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998EEC992ACE7C940027E852 /* Network.swift */; };
+		998EEC9B2ACE7C940027E852 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998EEC992ACE7C940027E852 /* Network.swift */; };
+		998EEC9D2ACE7D7B0027E852 /* baseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998EEC9C2ACE7D7B0027E852 /* baseViewModel.swift */; };
+		998EEC9E2ACE7D7B0027E852 /* baseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998EEC9C2ACE7D7B0027E852 /* baseViewModel.swift */; };
+		998EECA42ACE88350027E852 /* StarWarsAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 998EECA32ACE88350027E852 /* StarWarsAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +99,11 @@
 		994390C32ACBFEF800BA2490 /* OTTTemplateTVAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTTemplateTVAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		994390C72ACBFEF800BA2490 /* OTTTemplateTVAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTTemplateTVAppUITests.swift; sourceTree = "<group>"; };
 		994390C92ACBFEF800BA2490 /* OTTTemplateTVAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTTemplateTVAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		998EEC412ACDB9530027E852 /* apollo-codegen-configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "apollo-codegen-configuration.json"; sourceTree = "<group>"; };
+		998EEC452ACDCBDB0027E852 /* star-wars-swapi@current.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "star-wars-swapi@current.graphqls"; sourceTree = "<group>"; };
+		998EEC482ACDCC0E0027E852 /* AllFilmsQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = AllFilmsQuery.graphql; sourceTree = "<group>"; };
+		998EEC992ACE7C940027E852 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		998EEC9C2ACE7D7B0027E852 /* baseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998EECA42ACE88350027E852 /* StarWarsAPI in Frameworks */,
+				998EEC8B2ACE7A3A0027E852 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998EEC8D2ACE7A460027E852 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +158,8 @@
 		994390662ACBF06D00BA2490 = {
 			isa = PBXGroup;
 			children = (
+				998EEC482ACDCC0E0027E852 /* AllFilmsQuery.graphql */,
+				998EEC452ACDCBDB0027E852 /* star-wars-swapi@current.graphqls */,
 				994390D42ACBFFDE00BA2490 /* Shared */,
 				994390712ACBF06D00BA2490 /* OTTTemplateApp */,
 				994390842ACBF07000BA2490 /* OTTTemplateAppTests */,
@@ -147,6 +168,7 @@
 				994390BC2ACBFEF800BA2490 /* OTTTemplateTVAppTests */,
 				994390C62ACBFEF800BA2490 /* OTTTemplateTVAppUITests */,
 				994390702ACBF06D00BA2490 /* Products */,
+				998EECA22ACE88350027E852 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,13 +262,14 @@
 		994390D42ACBFFDE00BA2490 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				998EEC982ACE7C760027E852 /* Network */,
+				998EEC972ACE7C680027E852 /* coordinator */,
 				994390DA2ACC00A200BA2490 /* Model */,
 				994390D92ACC009300BA2490 /* ViewModel */,
-				9943909E2ACBFD6600BA2490 /* AppCoordinator.swift */,
 				994390D82ACC006400BA2490 /* Views */,
 			);
 			path = Shared;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		994390D82ACC006400BA2490 /* Views */ = {
 			isa = PBXGroup;
@@ -260,6 +283,7 @@
 		994390D92ACC009300BA2490 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				998EEC9C2ACE7D7B0027E852 /* baseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -267,8 +291,40 @@
 		994390DA2ACC00A200BA2490 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				998EEC402ACDB9010027E852 /* GraphQL */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		998EEC402ACDB9010027E852 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				998EEC412ACDB9530027E852 /* apollo-codegen-configuration.json */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		998EEC972ACE7C680027E852 /* coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9943909E2ACBFD6600BA2490 /* AppCoordinator.swift */,
+			);
+			path = coordinator;
+			sourceTree = "<group>";
+		};
+		998EEC982ACE7C760027E852 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				998EEC992ACE7C940027E852 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		998EECA22ACE88350027E852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +343,10 @@
 			dependencies = (
 			);
 			name = OTTTemplateApp;
+			packageProductDependencies = (
+				998EEC8A2ACE7A3A0027E852 /* Apollo */,
+				998EECA32ACE88350027E852 /* StarWarsAPI */,
+			);
 			productName = OTTTemplateApp;
 			productReference = 9943906F2ACBF06D00BA2490 /* OTTTemplateApp.app */;
 			productType = "com.apple.product-type.application";
@@ -340,6 +400,9 @@
 			dependencies = (
 			);
 			name = OTTTemplateTVApp;
+			packageProductDependencies = (
+				998EEC8C2ACE7A460027E852 /* Apollo */,
+			);
 			productName = OTTTemplateTVApp;
 			productReference = 994390A82ACBFEF600BA2490 /* OTTTemplateTVApp.app */;
 			productType = "com.apple.product-type.application";
@@ -423,6 +486,10 @@
 				Base,
 			);
 			mainGroup = 994390662ACBF06D00BA2490;
+			packageReferences = (
+				998EEC892ACE7A3A0027E852 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				998EEC9F2ACE87E00027E852 /* XCLocalSwiftPackageReference "StarWarsAPI" */,
+			);
 			productRefGroup = 994390702ACBF06D00BA2490 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -442,8 +509,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998EEC932ACE7B280027E852 /* star-wars-swapi@current.graphqls in Resources */,
 				9943907C2ACBF06F00BA2490 /* Preview Assets.xcassets in Resources */,
 				994390792ACBF06F00BA2490 /* Assets.xcassets in Resources */,
+				998EEC912ACE7B250027E852 /* AllFilmsQuery.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,8 +534,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998EEC942ACE7B290027E852 /* star-wars-swapi@current.graphqls in Resources */,
 				994390B42ACBFEF800BA2490 /* Preview Assets.xcassets in Resources */,
 				994390B12ACBFEF800BA2490 /* Assets.xcassets in Resources */,
+				998EEC922ACE7B250027E852 /* AllFilmsQuery.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +567,8 @@
 				994390772ACBF06D00BA2490 /* Item.swift in Sources */,
 				994390732ACBF06D00BA2490 /* OTTTemplateAppApp.swift in Sources */,
 				994390A12ACBFDEF00BA2490 /* MainTabView.swift in Sources */,
+				998EEC9D2ACE7D7B0027E852 /* baseViewModel.swift in Sources */,
+				998EEC9A2ACE7C940027E852 /* Network.swift in Sources */,
 				994390A32ACBFE3000BA2490 /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +599,8 @@
 				994390AF2ACBFEF600BA2490 /* Item.swift in Sources */,
 				994390AB2ACBFEF600BA2490 /* OTTTemplateTVAppApp.swift in Sources */,
 				994390D52ACC000500BA2490 /* LaunchScreenView.swift in Sources */,
+				998EEC9E2ACE7D7B0027E852 /* baseViewModel.swift in Sources */,
+				998EEC9B2ACE7C940027E852 /* Network.swift in Sources */,
 				994390D62ACC000500BA2490 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1031,6 +1106,42 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		998EEC9F2ACE87E00027E852 /* XCLocalSwiftPackageReference "StarWarsAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = StarWarsAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		998EEC892ACE7A3A0027E852 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		998EEC8A2ACE7A3A0027E852 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 998EEC892ACE7A3A0027E852 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		998EEC8C2ACE7A460027E852 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 998EEC892ACE7A3A0027E852 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		998EECA32ACE88350027E852 /* StarWarsAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 998EEC9F2ACE87E00027E852 /* XCLocalSwiftPackageReference "StarWarsAPI" */;
+			productName = StarWarsAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 994390672ACBF06D00BA2490 /* Project object */;
 }
