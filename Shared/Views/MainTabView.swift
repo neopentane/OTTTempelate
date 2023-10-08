@@ -11,8 +11,8 @@ struct MainTabView: View {
     var body: some View {
         TabView {
             // Add your tabs/views here
-            Text("Tab 1")
-                .tabItem {
+            BaseView()
+            .tabItem {
                     Text("Tab 1")
                     Image(systemName: "1.circle")
                 }

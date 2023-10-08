@@ -18,6 +18,8 @@ class baseViewModel: ObservableObject {
             switch result {
             case .success(let graphQLResult):
                 print("Success! Result: \(graphQLResult)")
+                let t = type(of: graphQLResult)
+                print("Type of \(t)")
             case .failure(let error):
                 print("Failure! Error: \(error)")
             }
