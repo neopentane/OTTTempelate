@@ -13,34 +13,35 @@ import Combine
 
 class baseViewModel: ObservableObject {
     
+    @Published var data: Query.Data?
+    @Published var isLoading = true
     private let useCase: BaseViewUseCaseProtocol
     
     init(useCase: BaseViewUseCaseProtocol) {
         self.useCase = useCase
+        self.start()
         
     }
     
     func start() {
-        self.useCase.fetchData().receive(on: Scheduler)
-    }
-    /*init() {
-        Network.shared.apollo.fetch(query: Query()) { result in
-            switch result {
-            case .success(let graphQLResult):
-                print("Success! Result: \(graphQLResult)")
-                let t = type(of: graphQLResult)
-                print("Type of \(t)")
-            case .failure(let error):
-                print("Failure! Error: \(error)")
+        useCase.fetchData { [weak self] result in
+            DispatchQueue.main.async {
+                self?.isLoading = false
+                switch result {
+                case .success(let data):
+                    self?.data = data
+                case .failure(_):
+                    print("Error")
+                }
             }
         }
-    }*/
+    }
 }
 
 
 class BaseViewUseCase : BaseViewUseCaseProtocol {
-    func fetchData() -> Future<Query.Data?, GraphQLError> {
-        repository.fetchData()
+    func fetchData(completion: @escaping (Result<Query.Data?, Error>) -> Void) {
+        repository.fetchData(completion: completion)
     }
     
     private let repository: BaseRepositoryProtocol
@@ -51,27 +52,43 @@ class BaseViewUseCase : BaseViewUseCaseProtocol {
 }
 
 class BaseRepository : BaseRepositoryProtocol {
-    func fetchData() -> Future<Query.Data?, GraphQLError>  {
-        let future = Future<Query.Data?, GraphQLError> { promise in
-            Network.shared.apollo.fetch(query: Query()) { result in
-                switch result {
-                case .success(let graphQLResult):
-                    return promise(.success(graphQLResult.data))
-                case .failure(let error):
-                    return promise(.failure(error as! GraphQLError))
+    //    func fetchData() -> Result<Query.Data?, Error> {         Network.shared.apollo.fetch(query: Query()) { result in
+    //        switch result {
+    //        case .success(let graphQLResult):
+    //            print("Success! Result: \(graphQLResult)")
+    //            return graphQLResult
+    //        case .failure(let error):
+    //            return error
+    //        }
+    //    }
+    //    }
+    
+    func fetchData(completion: @escaping (Result<Query.Data?, Error>) -> Void) {
+        Network.shared.apollo.fetch(query: Query()) { result in
+            switch result {
+            case .success(let graphQLResult):
+                if let data = graphQLResult.data {
+                    completion(.success(data))
+                } else if let errors = graphQLResult.errors {
+                    completion(.failure(GraphQLError.fetchError))
+                } else {
+                    completion(.failure(GraphQLError.fetchError))
                 }
+            case .failure(let error):
+                completion(.failure(error))
             }
         }
-        return future
     }
+    
+    
 }
 
 protocol BaseRepositoryProtocol {
-    func fetchData() -> Future<Query.Data?, GraphQLError>
+    func fetchData(completion: @escaping (Result<Query.Data?, Error>) -> Void)
 }
 
 protocol BaseViewUseCaseProtocol {
-    func fetchData() -> Future<Query.Data?, GraphQLError>
+    func fetchData(completion: @escaping (Result<Query.Data?, Error>) -> Void)
 }
 
 

@@ -29,6 +29,9 @@
 		994390D52ACC000500BA2490 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390A22ACBFE3000BA2490 /* LaunchScreenView.swift */; };
 		994390D62ACC000500BA2490 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994390A02ACBFDEF00BA2490 /* MainTabView.swift */; };
 		994390D72ACC002000BA2490 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943909E2ACBFD6600BA2490 /* AppCoordinator.swift */; };
+		995BDB352AD523BE00789805 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BA8E7C2AD29E0D00384C23 /* Constants.swift */; };
+		995BDB382AD5364400789805 /* BlurHashKit in Frameworks */ = {isa = PBXBuildFile; productRef = 995BDB372AD5364400789805 /* BlurHashKit */; };
+		995BDB3A2AD5365300789805 /* BlurHashKit in Frameworks */ = {isa = PBXBuildFile; productRef = 995BDB392AD5365300789805 /* BlurHashKit */; };
 		997E3CBB2ACF146C00E50ABF /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997E3CBA2ACF146C00E50ABF /* BaseView.swift */; };
 		997E3CBC2ACF146C00E50ABF /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997E3CBA2ACF146C00E50ABF /* BaseView.swift */; };
 		997E3CBE2ACF14AB00E50ABF /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997E3CBD2ACF14AB00E50ABF /* Favourite.swift */; };
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				998EECA42ACE88350027E852 /* StarWarsAPI in Frameworks */,
+				995BDB382AD5364400789805 /* BlurHashKit in Frameworks */,
 				998EEC8B2ACE7A3A0027E852 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99BA8E7A2AD29D5400384C23 /* StarWarsAPI in Frameworks */,
+				995BDB3A2AD5365300789805 /* BlurHashKit in Frameworks */,
 				998EEC8D2ACE7A460027E852 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +376,7 @@
 			packageProductDependencies = (
 				998EEC8A2ACE7A3A0027E852 /* Apollo */,
 				998EECA32ACE88350027E852 /* StarWarsAPI */,
+				995BDB372AD5364400789805 /* BlurHashKit */,
 			);
 			productName = OTTTemplateApp;
 			productReference = 9943906F2ACBF06D00BA2490 /* OTTTemplateApp.app */;
@@ -428,6 +434,7 @@
 			packageProductDependencies = (
 				998EEC8C2ACE7A460027E852 /* Apollo */,
 				99BA8E792AD29D5400384C23 /* StarWarsAPI */,
+				995BDB392AD5365300789805 /* BlurHashKit */,
 			);
 			productName = OTTTemplateTVApp;
 			productReference = 994390A82ACBFEF600BA2490 /* OTTTemplateTVApp.app */;
@@ -515,6 +522,7 @@
 			packageReferences = (
 				998EEC892ACE7A3A0027E852 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				998EEC9F2ACE87E00027E852 /* XCLocalSwiftPackageReference "StarWarsAPI" */,
+				995BDB362AD5362200789805 /* XCRemoteSwiftPackageReference "BlurHashKit" */,
 			);
 			productRefGroup = 994390702ACBF06D00BA2490 /* Products */;
 			projectDirPath = "";
@@ -635,6 +643,7 @@
 				998EEC9B2ACE7C940027E852 /* Network.swift in Sources */,
 				994390D62ACC000500BA2490 /* MainTabView.swift in Sources */,
 				997E3CC22ACF14B900E50ABF /* SearchView.swift in Sources */,
+				995BDB352AD523BE00789805 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1148,6 +1157,14 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		995BDB362AD5362200789805 /* XCRemoteSwiftPackageReference "BlurHashKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LePips/BlurHashKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 		998EEC892ACE7A3A0027E852 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
@@ -1159,6 +1176,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		995BDB372AD5364400789805 /* BlurHashKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 995BDB362AD5362200789805 /* XCRemoteSwiftPackageReference "BlurHashKit" */;
+			productName = BlurHashKit;
+		};
+		995BDB392AD5365300789805 /* BlurHashKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 995BDB362AD5362200789805 /* XCRemoteSwiftPackageReference "BlurHashKit" */;
+			productName = BlurHashKit;
+		};
 		998EEC8A2ACE7A3A0027E852 /* Apollo */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 998EEC892ACE7A3A0027E852 /* XCRemoteSwiftPackageReference "apollo-ios" */;
