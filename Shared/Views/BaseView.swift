@@ -24,27 +24,16 @@ struct BaseView: View {
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 ForEach(movies, id:\.self) { movie in
-                                    VStack() {
-                                        AsyncImage(url: URL( string: "https://random.imagecdn.app/320/180")) { img in
-                                            img.resizable()
-                                        } placeholder: {
-                                            BlurHashView(
-                                                blurHash: "LGD5?xYk^6#M@-5c,1J5@[or[Q6.",
-                                                size: CGSize(width: 16, height: 9),
-                                                pixels: 512,
-                                                punch: 0.8
-                                            )
-                                        }
-                                        
-                                        Text(movie?.title ?? "Nil").padding(8)
-                                    }.background(.black.opacity(0.2))
-                                        .cornerRadius(24)
-                                    //                                        .border(.white, width: 5)
+                                    CollectionViewCell(url: "https://random.imagecdn.app/320/180", title: movie?.title ?? "", subtitle: "asdf")
                                 }
                             }
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .edgesIgnoringSafeArea(.all)
+
                         }
                     }
                 }
+
             } else {
                 Text("Error")
             }
