@@ -4,9 +4,8 @@
 import ApolloAPI
 
 public extension Objects {
-  /// A single film.
-  static let Film = Object(
-    typename: "Film",
-    implementedInterfaces: [Interfaces.Node.self]
+  static let DexEntry = Object(
+    typename: "DexEntry",
+    implementedInterfaces: []
   )
 }

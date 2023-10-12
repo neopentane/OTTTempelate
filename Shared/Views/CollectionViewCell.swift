@@ -21,7 +21,7 @@ struct CollectionViewCell: View {
     
     var body: some View {
         VStack() {
-            AsyncImage(url: URL( string: url)) { img in
+            AsyncImage(url: URL( string: "")) { img in
                 img.resizable()
             } placeholder: {
                 BlurHashView(

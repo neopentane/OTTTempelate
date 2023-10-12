@@ -17,14 +17,14 @@ struct BaseView: View {
             if viewModel.isLoading {
                 Text("Loading...")
             }
-            else if let movies = viewModel.data?.allFilms?.films {
+            else if let pokemons = viewModel.data?.allPokemon {
                 VStack {
                     ForEach([0,1,2], id: \.self) { i in
                         
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
-                                ForEach(movies, id:\.self) { movie in
-                                    CollectionViewCell(url: "https://random.imagecdn.app/320/180", title: movie?.title ?? "", subtitle: "asdf")
+                                ForEach(pokemons, id:\.self) { pokemon in
+                                    CollectionViewCell(url: "https://random.imagecdn.app/320/180", title: pokemon?.name ?? "", subtitle: "asdf")
                                 }
                             }
                             .frame(maxWidth: .infinity, maxHeight: .infinity)

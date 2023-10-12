@@ -4,9 +4,8 @@
 import ApolloAPI
 
 public extension Objects {
-  /// A connection to a list of items.
-  static let FilmSpeciesConnection = Object(
-    typename: "FilmSpeciesConnection",
+  static let Game = Object(
+    typename: "Game",
     implementedInterfaces: []
   )
 }

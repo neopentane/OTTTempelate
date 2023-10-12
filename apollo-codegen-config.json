@@ -1,5 +1,5 @@
 {
-  "schemaNamespace" : "StarWarsAPI",
+  "schemaNamespace" : "PokeAPI",
   "input" : {
     "operationSearchPaths" : [
       "**/*.graphql"
@@ -14,7 +14,7 @@
       }
     },
     "schemaTypes" : {
-      "path" : "./StarWarsAPI",
+      "path" : "./PokeAPI",
       "moduleType" : {
         "swiftPackageManager" : {
         }

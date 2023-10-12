@@ -4,8 +4,8 @@
 import ApolloAPI
 
 public extension Objects {
-  static let Root = Object(
-    typename: "Root",
+  static let Region = Object(
+    typename: "Region",
     implementedInterfaces: []
   )
 }

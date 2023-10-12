@@ -1,0 +1,17 @@
+# Write your query or mutation here
+query GetAllPokemon {
+  allPokemon(limit: 10) {
+    name
+    generation
+    id
+    pokedex_entries {
+      game {
+        name
+        generation
+        regions {
+          name
+        }
+      }
+    }
+  }
+}

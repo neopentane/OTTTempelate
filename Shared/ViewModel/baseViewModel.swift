@@ -7,13 +7,13 @@
 
 import Foundation
 import Apollo
-import StarWarsAPI
+import PokeAPI
 import ApolloAPI
 import Combine
 
 class baseViewModel: ObservableObject {
     
-    @Published var data: Query.Data?
+    @Published var data: GetAllPokemonQuery.Data? = nil
     @Published var isLoading = true
     private let useCase: BaseViewUseCaseProtocol
     
@@ -40,7 +40,7 @@ class baseViewModel: ObservableObject {
 
 
 class BaseViewUseCase : BaseViewUseCaseProtocol {
-    func fetchData(completion: @escaping (Result<Query.Data?, Error>) -> Void) {
+    func fetchData(completion: @escaping (Result<GetAllPokemonQuery.Data, Error>) -> Void) {
         repository.fetchData(completion: completion)
     }
     
@@ -63,8 +63,8 @@ class BaseRepository : BaseRepositoryProtocol {
     //    }
     //    }
     
-    func fetchData(completion: @escaping (Result<Query.Data?, Error>) -> Void) {
-        Network.shared.apollo.fetch(query: Query()) { result in
+    func fetchData(completion: @escaping (Result<GetAllPokemonQuery.Data, Error>) -> Void) {
+        Network.shared.apollo.fetch(query: GetAllPokemonQuery()) { result in
             switch result {
             case .success(let graphQLResult):
                 if let data = graphQLResult.data {
@@ -84,11 +84,11 @@ class BaseRepository : BaseRepositoryProtocol {
 }
 
 protocol BaseRepositoryProtocol {
-    func fetchData(completion: @escaping (Result<Query.Data?, Error>) -> Void)
+    func fetchData(completion: @escaping (Result<GetAllPokemonQuery.Data, Error>) -> Void)
 }
 
 protocol BaseViewUseCaseProtocol {
-    func fetchData(completion: @escaping (Result<Query.Data?, Error>) -> Void)
+    func fetchData(completion: @escaping (Result<GetAllPokemonQuery.Data, Error>) -> Void)
 }
 
 

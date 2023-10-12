@@ -6,5 +6,5 @@
 //
 
 import Foundation
-let apiPoint = "https://current--Neopentanes-Team.apollographos.net/graphql"
+let apiPoint = "http://localhost:4000/"
 
