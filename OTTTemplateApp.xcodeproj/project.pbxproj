@@ -87,6 +87,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9907DDEC2AD7AE6900EDF0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9943906F2ACBF06D00BA2490 /* OTTTemplateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTTTemplateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994390722ACBF06D00BA2490 /* OTTTemplateAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTTemplateAppApp.swift; sourceTree = "<group>"; };
 		994390742ACBF06D00BA2490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -209,6 +210,7 @@
 		994390712ACBF06D00BA2490 /* OTTTemplateApp */ = {
 			isa = PBXGroup;
 			children = (
+				9907DDEC2AD7AE6900EDF0BB /* Info.plist */,
 				994390722ACBF06D00BA2490 /* OTTTemplateAppApp.swift */,
 				994390742ACBF06D00BA2490 /* ContentView.swift */,
 				994390762ACBF06D00BA2490 /* Item.swift */,
@@ -826,6 +828,7 @@
 				DEVELOPMENT_TEAM = 6ZJ6B7LZNS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OTTTemplateApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -855,6 +858,7 @@
 				DEVELOPMENT_TEAM = 6ZJ6B7LZNS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OTTTemplateApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
